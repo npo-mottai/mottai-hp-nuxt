@@ -13,9 +13,11 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "core-js": "^3.9.1",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.3",
+    "vue-material": "^1.0.0-beta-15"
   },
   "devDependencies": {
+    "@mdi/js": "^5.9.55",
     "@nuxt/types": "^2.15.3",
     "@nuxt/typescript-build": "^2.1.0",
     "@nuxtjs/eslint-config-typescript": "^6.0.0",

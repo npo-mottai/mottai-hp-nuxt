@@ -1,6 +1,9 @@
 <template>
   <div>
+    <nav-bar />
+    <main-visual />
     <Nuxt />
+    <common-footer />
   </div>
 </template>
 

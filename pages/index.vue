@@ -3,7 +3,7 @@
     <div class="container mx-auto px-16">
       <div class="">
         <h2
-          class="text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8 border-red-400"
+          class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
         >
           MOTTAIとは
         </h2>
@@ -24,7 +24,7 @@
 
       <div class="">
         <h2
-          class="text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8 border-red-400"
+          class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
         >
           MOTTAIの活動
         </h2>
@@ -87,7 +87,7 @@
 
       <div class="">
         <h2
-          class="text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8 border-red-400"
+          class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
         >
           メディア掲載
         </h2>
@@ -98,21 +98,31 @@
           <div>
             <h3 class="pt-4 pb-2 truncate">TEDx Keio USFC 登壇</h3>
             <div class="md:flex-shrink-0">
-              <img
-                class="rounded-lg"
-                src="/image/youtube-1-tedx.png"
-                alt="YouTube TedxKeioUSFC"
-              />
+              <a
+                href="https://www.youtube.com/watch?v=nAWJgywLsAw&ab_channel=TEDxTalks"
+                target="_blank"
+              >
+                <img
+                  class="rounded-lg"
+                  src="/image/youtube-1-tedx.png"
+                  alt="YouTube TedxKeioUSFC"
+                />
+              </a>
             </div>
           </div>
           <div>
             <h3 class="pt-4 pb-2 truncate">食べるを考える</h3>
             <div class="md:flex-shrink-0">
-              <img
-                class="rounded-lg"
-                src="/image/youtube-2-taberu-wo-kangaeru.png"
-                alt="YouTube 食べるを考える"
-              />
+              <a
+                href="https://www.youtube.com/watch?v=KiLChQ3Mwkg&feature=youtu.be&ab_channel=NANAME"
+                target="_blank"
+              >
+                <img
+                  class="rounded-lg"
+                  src="/image/youtube-2-taberu-wo-kangaeru.png"
+                  alt="YouTube 食べるを考える"
+                />
+              </a>
             </div>
           </div>
           <div>
@@ -120,11 +130,16 @@
               ANN News "食"のウラ側にある命の重さを考える
             </h3>
             <div class="md:flex-shrink-0">
-              <img
-                class="rounded-lg"
-                src="/image/youtube-3-sdgs.png"
-                alt="YouTube 食のウラ側にある命の重さを考える"
-              />
+              <a
+                href="https://www.youtube.com/watch?v=mK2iOG8F-wk&ab_channel=ANNnewsCH"
+                target="_blank"
+              >
+                <img
+                  class="rounded-lg"
+                  src="/image/youtube-3-sdgs.png"
+                  alt="YouTube 食のウラ側にある命の重さを考える"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -132,7 +147,7 @@
 
       <div class="">
         <h2
-          class="text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8 border-red-400"
+          class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
         >
           ニュース
         </h2>
@@ -218,7 +233,7 @@
 
       <div class="">
         <h2
-          class="text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8 border-red-400"
+          class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
         >
           MOTTAIをサポートする
         </h2>
@@ -236,7 +251,7 @@
 
       <div class="">
         <h2
-          class="text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8 border-red-400"
+          class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
         >
           お問い合わせ
         </h2>

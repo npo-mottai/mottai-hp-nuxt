@@ -109,8 +109,8 @@
                 target="_blank"
               >
                 <img
-                  width="400"
-                  height="300"
+                  width="512"
+                  height="384"
                   class="rounded-lg"
                   src="/image/youtube-1-tedx.png"
                   alt="YouTube TedxKeioUSFC"
@@ -126,8 +126,8 @@
                 target="_blank"
               >
                 <img
-                  width="400"
-                  height="300"
+                  width="512"
+                  height="384"
                   class="rounded-lg"
                   src="/image/youtube-2-taberu-wo-kangaeru.png"
                   alt="YouTube 食べるを考える"
@@ -145,8 +145,8 @@
                 target="_blank"
               >
                 <img
-                  width="400"
-                  height="300"
+                  width="512"
+                  height="384"
                   class="rounded-lg"
                   src="/image/youtube-3-sdgs.png"
                   alt="YouTube 食のウラ側にある命の重さを考える"
@@ -166,86 +166,27 @@
         <p class="pb-3 md:text-lg">
           MOTTAIの最新の活動やニュースは次の通りです。
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-3">
-          <div class="bg-white rounded-xl shadow-md overflow-hidden">
-            <div class="md:flex-shrink-0">
-              <img
-                width="400"
-                height="247"
-                class="h-48 w-full object-cover"
-                src="/image/news/2020−07−20−ito-eisuke/1.jpg"
-                alt="2020-07-20 news thubmnail"
-              />
-            </div>
-            <div class="p-4">
-              <div class="tracking-wide text-sm font-semibold">
-                2020-07-20 (月)
-              </div>
-              <a
-                href="/"
-                class="block truncate mt-1 text-lg leading-tight font-medium hover:underline"
-                >メンバー自己紹介：伊東英祐</a
-              >
-              <p class="mt-2 text-gray-500">
-                初めまして!!MOTTAIメンバー理事を務めさせて頂いてる慶應義塾大学環境情報学部の伊東英祐です。私と「自然、命の大切さ」の出会いの原点を遡ると、物心ついた頃かもしれません。私は物心つく前から家族に連れられ、夏には磯遊びをし、冬には雪山で雪遊びをするなど自然と触れ合いながら
-              </p>
-            </div>
-          </div>
-          <div class="bg-white rounded-xl shadow-md overflow-hidden">
-            <div class="md:flex-shrink-0">
-              <img
-                width="400"
-                height="247"
-                class="h-48 w-full object-cover"
-                src="/image/news/2020-07-19-sugata-yusuke/3.jpg"
-                alt="2020-07-19 news thubmnail"
-              />
-            </div>
-            <div class="p-4">
-              <div class="tracking-wide text-sm font-semibold">
-                2020-07-19 (日)
-              </div>
-              <a
-                href="/"
-                class="block truncate mt-1 text-lg leading-tight font-medium hover:underline"
-                >メンバー自己紹介：菅田悠介</a
-              >
-              <p class="mt-2 text-gray-500">
-                代表理事の菅田悠介です。慶應義塾大学環境情報学部を2019年の秋に卒業したのちに、小田原の古民家に移住し、都内のインフラ企業に往復4時間くらいかけて通いつつ、新米わな猟師をやりながら、NPOにて食について考えるきっかけ作りをしています。
-              </p>
-            </div>
-          </div>
-          <div class="bg-white rounded-xl shadow-md overflow-hidden">
-            <div class="md:flex-shrink-0">
-              <img
-                width="400"
-                height="247"
-                class="h-48 w-full object-cover"
-                src="/image/news/2020-07-18-npo-mottai-hp/ogp.png"
-                alt="2020-07-18 news thubmnail"
-              />
-            </div>
-            <div class="p-4">
-              <div class="tracking-wide text-sm font-semibold">
-                2020-07-18 (土)
-              </div>
-              <a
-                href="/"
-                class="block truncate mt-1 text-lg leading-tight font-medium hover:underline"
-                >NPO法人MOTTAI ホームページ公開</a
-              >
-              <p class="mt-2 text-gray-500">
-                NPO法人MOTTAIのHPを公開しました！今後、様々な活動の報告やイベントのお知らせ、その他NPO法人MOTTAIに関する最新のニュースなどを随時アップデートしていきます。ぜひご覧ください。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="text-center my-auto">
-          <button
-            class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+        <div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mb-3"
           >
-            <nuxt-link to="/news/">ニュース一覧</nuxt-link>
-          </button>
+            <NewsCard
+              v-for="(article, index) in articles"
+              :key="index"
+              :title="article.title"
+              :description="article.description"
+              :created-at="article.createdAt"
+              :slug="article.slug"
+              :image="article.image"
+            />
+            <div class="text-center my-auto">
+              <button
+                class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
+              >
+                <nuxt-link to="/news/">ニュース一覧</nuxt-link>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -284,34 +225,13 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
-
-interface DataType {
-  isOpen: boolean
-}
-
-interface MethodType {
-  toggle(): void
-  fold(): void
-}
-
-interface ComputedType {
-  showMainVisual(): boolean
-  subTitle(): string
-  selectedOption(): string
-}
-
-interface PropType {}
-
-export default Vue.extend(
-  {} as ThisTypedComponentOptionsWithRecordProps<
-    Vue,
-    DataType,
-    MethodType,
-    ComputedType,
-    PropType
-  >
-)
+export default Vue.extend({
+  async asyncData({ $content }: { $content: any }) {
+    const query = await $content('news').sortBy('createdAt', 'desc').limit(3)
+    const articles = await query.fetch()
+    return { articles }
+  },
+})
 </script>
 
 <style>

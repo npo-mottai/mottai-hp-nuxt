@@ -51,7 +51,7 @@
         <p class="pb-3 md:text-lg">
           モッタイNightについては、過去に次のようなメディアに掲載して頂きました。
         </p>
-        <ul class="pl-6 pb-3">
+        <ul class="pl-6 pb-2">
           <li class="list-disc md:text-lg">
             <a
               href="https://neutmagazine.com/yururevolution-yusuke-sugata"

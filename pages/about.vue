@@ -100,11 +100,15 @@
             NPO法人MOTTAIや、法人設立前の代表等の活動実績は次の通りです。
           </p>
           <ul class="pl-6">
-            <li class="list-disc">
+            <li class="list-disc md:text-lg">
               日経ソーシャルビジネスコンテストファイナリスト
             </li>
-            <li class="list-disc">KEIO BUSINESS CONTEST 審査員特別賞</li>
-            <li class="list-disc">TokyoStartup Gateway セミファイナリスト</li>
+            <li class="list-disc md:text-lg">
+              KEIO BUSINESS CONTEST 審査員特別賞
+            </li>
+            <li class="list-disc md:text-lg">
+              TokyoStartup Gateway セミファイナリスト
+            </li>
           </ul>
         </div>
         <div class="">

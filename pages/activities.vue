@@ -14,7 +14,7 @@
           罠オーナー制度については、過去に次のようなメディアに掲載して頂きました。
         </p>
         <ul class="pl-6">
-          <li class="list-disc">
+          <li class="list-disc md:text-lg">
             <a
               href="https://www.news24.jp/articles/2019/05/23/07440149.html"
               class="text-blue-500 hover:underline"
@@ -22,7 +22,7 @@
               >日テレNEWS24「罠オーナー制度」その仕組みは？</a
             >
           </li>
-          <li class="list-disc">
+          <li class="list-disc md:text-lg">
             <a
               href="https://www.youtube.com/watch?v=A_PToY31AUg&ab_channel=TBSNEWS"
               class="text-blue-500 hover:underline"
@@ -52,7 +52,7 @@
           モッタイNightについては、過去に次のようなメディアに掲載して頂きました。
         </p>
         <ul class="pl-6 pb-3">
-          <li class="list-disc">
+          <li class="list-disc md:text-lg">
             <a
               href="https://neutmagazine.com/yururevolution-yusuke-sugata"
               class="text-blue-500 hover:underline"
@@ -60,7 +60,7 @@
               >NEWT “余り物”に注目して開始した「モッタイナイト」</a
             >
           </li>
-          <li class="list-disc">
+          <li class="list-disc md:text-lg">
             <a
               href="https://www.townnews.co.jp/0601/m/2017/06/30/388794.html"
               class="text-blue-500 hover:underline"

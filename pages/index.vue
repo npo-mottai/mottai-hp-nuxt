@@ -55,11 +55,11 @@
               height="300"
               class="rounded-lg md:w-72"
               src="/image/activity-2-mottai-night.jpg"
-              alt="モッタイnight"
+              alt="モッタイNight"
             />
           </div>
           <div class="mb-6 md:mb-0 mt-2 md:mt-0 md:ml-6">
-            <div class="tracking-wide font-bold text-xl">モッタイnight</div>
+            <div class="tracking-wide font-bold text-xl">モッタイNight</div>
             <p class="mt-2">
               廃棄になりそうな食材を持ち寄って、カレーや鍋などを作る料理会です。元は代表菅田の友人が始めた「地球にちょこっと恩返し」をコンセプトに行われる活動でしたが、名前をのれん分けしてもらうことで様々な場所で行われるようになりました。
             </p>

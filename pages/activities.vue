@@ -72,6 +72,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 pb-3">
           <div class="md:flex-shrink-0">
             <img
+              width="400"
+              height="229"
               class="rounded-lg"
               src="/image/mottai-night-1.jpg"
               alt="モッタイNight 1"
@@ -79,6 +81,8 @@
           </div>
           <div class="md:flex-shrink-0">
             <img
+              width="400"
+              height="229"
               class="rounded-lg"
               src="/image/mottai-night-2.jpg"
               alt="モッタイNight 2"
@@ -86,6 +90,8 @@
           </div>
           <div class="md:flex-shrink-0">
             <img
+              width="400"
+              height="229"
               class="rounded-lg"
               src="/image/mottai-night-3.jpg"
               alt="モッタイNight 3"

@@ -7,7 +7,7 @@
       <h1 class="mb-2 text-center text-white text-3xl md:text-6xl font-bold">
         NPO 法人 MOTTAI
       </h1>
-      <p class="text-center text-white text-lg md:text-3xl font-bold">
+      <p class="px-4 text-center text-white sm:text-lg md:text-3xl font-bold">
         {{ subTitle }}
       </p>
     </div>

@@ -34,6 +34,8 @@
         <div class="md:flex pb-3">
           <div class="md:flex-shrink-0">
             <img
+              width="400"
+              height="300"
               class="rounded-lg md:w-72"
               src="/image/activity-1-trap-owner.jpg"
               alt="罠オーナー制度"
@@ -49,6 +51,8 @@
         <div class="md:flex pb-3">
           <div class="md:flex-shrink-0">
             <img
+              width="400"
+              height="300"
               class="rounded-lg md:w-72"
               src="/image/activity-2-mottai-night.jpg"
               alt="モッタイnight"
@@ -64,6 +68,8 @@
         <div class="md:flex pb-3">
           <div class="md:flex-shrink-0">
             <img
+              width="400"
+              height="300"
               class="rounded-lg md:w-72"
               src="/image/activity-3-other.jpg"
               alt="体験事業"
@@ -103,6 +109,8 @@
                 target="_blank"
               >
                 <img
+                  width="400"
+                  height="300"
                   class="rounded-lg"
                   src="/image/youtube-1-tedx.png"
                   alt="YouTube TedxKeioUSFC"
@@ -118,6 +126,8 @@
                 target="_blank"
               >
                 <img
+                  width="400"
+                  height="300"
                   class="rounded-lg"
                   src="/image/youtube-2-taberu-wo-kangaeru.png"
                   alt="YouTube 食べるを考える"
@@ -135,6 +145,8 @@
                 target="_blank"
               >
                 <img
+                  width="400"
+                  height="300"
                   class="rounded-lg"
                   src="/image/youtube-3-sdgs.png"
                   alt="YouTube 食のウラ側にある命の重さを考える"
@@ -158,17 +170,19 @@
           <div class="bg-white rounded-xl shadow-md overflow-hidden">
             <div class="md:flex-shrink-0">
               <img
+                width="400"
+                height="247"
                 class="h-48 w-full object-cover"
                 src="/image/news/2020−07−20−ito-eisuke/1.jpg"
                 alt="2020-07-20 news thubmnail"
               />
             </div>
             <div class="p-4">
-              <div class="tracking-wide text-sm text-indigo-500 font-semibold">
+              <div class="tracking-wide text-sm font-semibold">
                 2020-07-20 (月)
               </div>
               <a
-                href="#"
+                href="/"
                 class="block truncate mt-1 text-lg leading-tight font-medium hover:underline"
                 >メンバー自己紹介：伊東英祐</a
               >
@@ -180,17 +194,19 @@
           <div class="bg-white rounded-xl shadow-md overflow-hidden">
             <div class="md:flex-shrink-0">
               <img
+                width="400"
+                height="247"
                 class="h-48 w-full object-cover"
                 src="/image/news/2020-07-19-sugata-yusuke/3.jpg"
                 alt="2020-07-19 news thubmnail"
               />
             </div>
             <div class="p-4">
-              <div class="tracking-wide text-sm text-indigo-500 font-semibold">
+              <div class="tracking-wide text-sm font-semibold">
                 2020-07-19 (日)
               </div>
               <a
-                href="#"
+                href="/"
                 class="block truncate mt-1 text-lg leading-tight font-medium hover:underline"
                 >メンバー自己紹介：菅田悠介</a
               >
@@ -202,17 +218,19 @@
           <div class="bg-white rounded-xl shadow-md overflow-hidden">
             <div class="md:flex-shrink-0">
               <img
+                width="400"
+                height="247"
                 class="h-48 w-full object-cover"
                 src="/image/news/2020-07-18-npo-mottai-hp/ogp.png"
                 alt="2020-07-18 news thubmnail"
               />
             </div>
             <div class="p-4">
-              <div class="tracking-wide text-sm text-indigo-500 font-semibold">
+              <div class="tracking-wide text-sm font-semibold">
                 2020-07-18 (土)
               </div>
               <a
-                href="#"
+                href="/"
                 class="block truncate mt-1 text-lg leading-tight font-medium hover:underline"
                 >NPO法人MOTTAI ホームページ公開</a
               >

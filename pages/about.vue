@@ -75,6 +75,8 @@
           </div>
           <div class="text-center lg:pl-2 lg:my-auto">
             <img
+              width="288"
+              height="288"
               class="mx-auto rounded-full h-72 w-72"
               src="/image/sugata-yusuke.jpg"
               alt="yusuke sugata"
@@ -134,6 +136,8 @@
                   target="_blank"
                 >
                   <img
+                    width="400"
+                    height="300"
                     class="rounded-lg"
                     src="/image/youtube-1-tedx.png"
                     alt="YouTube TedxKeioUSFC"
@@ -149,6 +153,8 @@
                   target="_blank"
                 >
                   <img
+                    width="400"
+                    height="300"
                     class="rounded-lg"
                     src="/image/youtube-2-taberu-wo-kangaeru.png"
                     alt="YouTube 食べるを考える"
@@ -166,6 +172,8 @@
                   target="_blank"
                 >
                   <img
+                    width="400"
+                    height="300"
                     class="rounded-lg"
                     src="/image/youtube-3-sdgs.png"
                     alt="YouTube 食のウラ側にある命の重さを考える"

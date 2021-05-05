@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="fixed top-0 right-0 m-8 p-3 text-xs font-mono text-white h-6 w-6 rounded-full flex items-center justify-center bg-gray-700 sm:bg-pink-500 md:bg-orange-500 lg:bg-green-500 xl:bg-blue-500"
+      class="fixed top-0 right-0 m-1 p-3 text-xs font-mono text-white h-6 w-6 rounded-full flex items-center justify-center bg-gray-700 sm:bg-pink-500 md:bg-orange-500 lg:bg-green-500 xl:bg-blue-500"
     >
       <div class="block sm:hidden md:hidden lg:hidden xl:hidden">al</div>
       <div class="hidden sm:block md:hidden lg:hidden xl:hidden">sm</div>
@@ -13,7 +13,12 @@
       <div class="flex justify-between">
         <div class="flex-none mx-6">
           <nuxt-link to="/" class="text-blue-500 hover:text-blue-800">
-            <img class="" src="/image/mottai-logo.svg" alt="NPO法人 MOTTAI" />
+            <img
+              class=""
+              src="/image/mottai-logo.svg"
+              alt="NPO法人 MOTTAI"
+              @click="fold"
+            />
           </nuxt-link>
         </div>
         <div class="my-auto">
@@ -35,44 +40,44 @@
       </div>
       <div class="lg:my-auto lg:block" :class="isOpen ? 'block' : 'hidden'">
         <ul class="lg:flex">
-          <li class="mt-4 lg:mt-0 transition duration-500">
+          <li class="mt-4 lg:mt-0" @click="fold">
             <nuxt-link
-              to="/"
+              to="/about/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >私たちについて</nuxt-link
             >
           </li>
-          <li class="">
+          <li class="" @click="fold">
             <nuxt-link
-              to="/"
+              to="/activities/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >MOTTAIの活動</nuxt-link
             >
           </li>
-          <li class="">
+          <li class="" @click="fold">
             <nuxt-link
-              to="/"
+              to="/about/#media"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >メディア掲載</nuxt-link
             >
           </li>
-          <li class="">
+          <li class="" @click="fold">
             <nuxt-link
-              to="/"
+              to="/news/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >ニュース</nuxt-link
             >
           </li>
-          <li class="">
+          <li class="" @click="fold">
             <nuxt-link
-              to="/"
+              to="/support/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >サポートする</nuxt-link
             >
           </li>
-          <li class="">
+          <li class="" @click="fold">
             <nuxt-link
-              to="/"
+              to="/contact/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >お問い合わせ</nuxt-link
             >
@@ -84,7 +89,24 @@
 </template>
 
 <script lang="ts">
+import Vue from 'vue'
 import { mdiMenu, mdiClose } from '@mdi/js'
+import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
+
+interface DataType {
+  isOpen: boolean
+  menuIcon: string
+  closeIcon: string
+}
+
+interface MethodType {
+  toggle(): void
+  fold(): void
+}
+
+interface ComputedType {}
+
+interface PropType {}
 
 export default {
   data() {
@@ -98,6 +120,15 @@ export default {
     toggle(): void {
       this.isOpen = !this.isOpen
     },
+    fold(): void {
+      this.isOpen = false
+    },
   },
-}
+} as ThisTypedComponentOptionsWithRecordProps<
+  Vue,
+  DataType,
+  MethodType,
+  ComputedType,
+  PropType
+>
 </script>

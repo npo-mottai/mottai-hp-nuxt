@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="container mx-auto px-16">
+    <div class="container mx-auto px-8 sm:px-16 xl:px-48">
       <div class="">
         <h2
           class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
@@ -244,7 +244,7 @@
           <button
             class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded"
           >
-            <nuxt-link to="/about/">MOTTAIをサポートする</nuxt-link>
+            <nuxt-link to="/support/">MOTTAIをサポートする</nuxt-link>
           </button>
         </div>
       </div>
@@ -266,8 +266,34 @@
 
 <script lang="ts">
 import Vue from 'vue'
+import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
 
-export default Vue.extend({})
+interface DataType {
+  isOpen: boolean
+}
+
+interface MethodType {
+  toggle(): void
+  fold(): void
+}
+
+interface ComputedType {
+  showMainVisual(): boolean
+  subTitle(): string
+  selectedOption(): string
+}
+
+interface PropType {}
+
+export default Vue.extend(
+  {} as ThisTypedComponentOptionsWithRecordProps<
+    Vue,
+    DataType,
+    MethodType,
+    ComputedType,
+    PropType
+  >
+)
 </script>
 
 <style>

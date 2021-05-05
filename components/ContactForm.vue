@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-16">
+  <div class="container mx-auto px-8 sm:px-16 xl:px-48">
     <div class="w-full mx-auto md:max-w-sm lg:max-w-md">
       <form
         class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4"
@@ -15,18 +15,44 @@
           <select
             id="selectCategory"
             name="entry.725826341"
-            class="appearance-none shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            class="--category appearance-none shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
             required
           >
-            <option></option>
-            <option value="各種活動について">各種活動について</option>
-            <option value="寄付について">寄付について</option>
-            <option value="プロボノやインターンについて">
+            <option
+              class="text-gray-50"
+              value=""
+              disabled
+              :selected="selectedOption === '種別を選択してください'"
+            >
+              種別を選択してください
+            </option>
+            <option
+              value="各種活動について"
+              :selected="selectedOption === '各種活動について'"
+            >
+              各種活動について
+            </option>
+            <option
+              value="寄付について"
+              :selected="selectedOption === '寄付について'"
+            >
+              寄付について
+            </option>
+            <option
+              value="プロボノやインターンについて"
+              :selected="selectedOption === 'プロボノやインターンについて'"
+            >
               プロボノやインターンについて
             </option>
-            <option value="講演依頼">講演依頼</option>
-            <option value="取材依頼">取材依頼</option>
-            <option value="その他">その他</option>
+            <option value="講演依頼" :selected="selectedOption === '講演依頼'">
+              講演依頼
+            </option>
+            <option value="取材依頼" :selected="selectedOption === '取材依頼'">
+              取材依頼
+            </option>
+            <option value="その他" :selected="selectedOption === 'その他'">
+              その他
+            </option>
           </select>
         </div>
         <div class="flex">
@@ -35,7 +61,7 @@
               class="block text-gray-700 text-sm font-bold mb-2"
               for="inputLastName"
             >
-              お名前（姓）【必須】
+              姓【必須】
             </label>
             <input
               id="inputLastName"
@@ -51,7 +77,7 @@
               class="block text-gray-700 text-sm font-bold mb-2"
               for="inputFirstName"
             >
-              お名前（名）【必須】
+              名【必須】
             </label>
             <input
               id="inputFirstName"
@@ -68,7 +94,7 @@
             class="block text-gray-700 text-sm font-bold mb-2"
             for="inputCompany"
           >
-            会社名【任意】
+            会社名など【任意】
           </label>
           <input
             id="inputCompany"
@@ -156,3 +182,48 @@
     </div>
   </div>
 </template>
+
+<script lang="ts">
+import Vue from 'vue'
+import { ThisTypedComponentOptionsWithRecordProps } from 'vue/types/options'
+
+interface DataType {}
+
+interface MethodType {
+  toggle(): void
+  fold(): void
+}
+
+interface ComputedType {
+  selectedOption(): string
+}
+
+interface PropType {}
+
+export default {
+  computed: {
+    selectedOption(): string {
+      const currentRouteName: string = this.$nuxt.$route.name?.toString()!
+      if (currentRouteName === 'index') {
+        return '種別を選択してください'
+      } else if (currentRouteName === 'contact') {
+        return '種別を選択してください'
+      } else if (currentRouteName === 'donation') {
+        return '寄付について'
+      } else if (currentRouteName === 'pro-bono') {
+        return 'プロボノやインターンについて'
+      } else if (currentRouteName === 'request') {
+        return '講演依頼'
+      } else {
+        return '種別を選択してください'
+      }
+    },
+  },
+} as ThisTypedComponentOptionsWithRecordProps<
+  Vue,
+  DataType,
+  MethodType,
+  ComputedType,
+  PropType
+>
+</script>

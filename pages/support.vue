@@ -18,7 +18,9 @@
       <p class="pb-3 md:text-lg">
         MOTTAIの活動や理念に共感してもらえる仲間を探しています。寄付による支援、プロボノやインターンや会員としての参加、講演依頼など様々な形でMOTTAIをサポートしてみませんか？
       </p>
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-3 xl:gap-12 pb-3">
+      <div
+        class="grid grid-cols-1 gap-3 pb-3 sm:mx-4 md:mx-12 lg:mx-40 xl:mx-44"
+      >
         <div
           class="sm:mx-16 md:mx-24 lg:mx-0 border border-grey-200 rounded-xl p-4"
         >

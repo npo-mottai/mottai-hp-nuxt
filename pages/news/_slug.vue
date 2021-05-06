@@ -4,6 +4,11 @@
     <h1 class="font-bold">
       {{ article.title || '' }}
     </h1>
+    <span
+      >投稿日：{{ formatDate(article.createdAt) || '' }} ({{
+        day(article.createdAt) || ''
+      }})</span
+    >
     <div class="news-content">
       <nuxt-content :document="article" />
     </div>
@@ -16,6 +21,20 @@ export default {
     const query = $content('news', params.slug)
     const article = await query.fetch()
     return { article }
+  },
+  methods: {
+    formatDate(date: Date): string {
+      const options: any = { year: 'numeric', month: 'long', day: 'numeric' }
+      return new Date(date).toLocaleDateString('ja', options)
+    },
+    day(date: Date): string {
+      const dayOfWeek = ['日', '月', '火', '水', '木', '金', '土']
+      const obj = new Date(date)
+      return dayOfWeek[obj.getDay()]
+    },
+    artichlePath(slug: string): string {
+      return '/news/' + slug
+    },
   },
 }
 </script>

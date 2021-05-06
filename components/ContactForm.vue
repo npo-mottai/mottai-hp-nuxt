@@ -101,7 +101,6 @@
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="株式会社 XXX"
-          required
         />
       </div>
       <div class="mb-4">
@@ -159,12 +158,13 @@
         >
           本文【必須】
         </label>
-        <input
+        <textarea
           id="inputContent"
           name="entry.152237501"
           class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
-          type="text"
           placeholder="本文を入力"
+          rows="10"
+          required
         />
       </div>
       <div class="">

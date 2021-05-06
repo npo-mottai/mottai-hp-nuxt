@@ -1,3 +1,13 @@
+const createSitemapRoutes = async () => {
+  const routes = []
+  const { $content } = require('@nuxt/content')
+  const articles = await $content('news').fetch()
+  for (const article of articles) {
+    routes.push(`news/${article.slug}`)
+  }
+  return routes
+}
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -115,6 +125,7 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'nuxt-lazy-load',
+    '@nuxtjs/sitemap',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -122,4 +133,13 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // sitemap の生成
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://npo-mottai.org',
+    // generate: true,
+    exclude: [],
+    routes: createSitemapRoutes,
+  },
 }

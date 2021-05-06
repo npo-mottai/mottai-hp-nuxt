@@ -6,7 +6,7 @@
           <li>NPO法人MOTTAI</li>
           <li>神奈川県小田原市２４７番３</li>
           <li>&copy;2020–2021 NPO法人 MOTTAI</li>
-          <li class="text-blue-500 hover:text-blue-800">
+          <li class="text-blue-600 hover:text-blue-800">
             <nuxt-link to="/privacy/">プライバシーポリシー</nuxt-link>
           </li>
         </ul>

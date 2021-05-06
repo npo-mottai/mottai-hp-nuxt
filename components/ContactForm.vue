@@ -168,13 +168,13 @@
       </div>
       <div>
         <button
-          class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
           type="submit"
           onClick="postToGoogle()"
         >
           送信する
         </button>
-        <p>※ 送信後Google Formsの完了画面に遷移します</p>
+        <p class="pt-1">※ 送信後Google Formsの完了画面に遷移します</p>
       </div>
     </form>
   </div>

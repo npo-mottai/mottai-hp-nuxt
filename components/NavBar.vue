@@ -1,6 +1,6 @@
 <template>
   <div>
-    <window-size-indicator />
+    <!-- <window-size-indicator /> -->
     <nav class="lg:flex my-3">
       <div class="flex justify-between">
         <div class="flex-none mx-6">

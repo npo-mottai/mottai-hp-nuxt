@@ -21,6 +21,13 @@
       <p class="mt-2 text-gray-500">
         {{ description }}
       </p>
+      <div class="pt-2">
+        <button
+          class="py-1 px-2 bg-transparent hover:bg-gray-500 hover:text-white border rounded"
+        >
+          <nuxt-link :to="artichlePath(slug)">記事を読む</nuxt-link>
+        </button>
+      </div>
     </div>
   </article>
 </template>

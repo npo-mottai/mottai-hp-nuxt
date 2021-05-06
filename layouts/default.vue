@@ -2,7 +2,10 @@
   <div>
     <nav-bar />
     <main-visual v-if="showMainVisual" />
-    <Nuxt />
+    <!-- <div class="container xl:max-w-screen-lg mx-auto px-8 sm:px-16 xl:px-48"> -->
+    <div class="container px-4 sm:px-8 lg:px-0 lg:max-w-screen-md">
+      <Nuxt />
+    </div>
     <common-footer />
   </div>
 </template>

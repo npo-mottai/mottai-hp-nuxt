@@ -1,6 +1,6 @@
 <template>
-  <!-- <article class="container mx-auto my-8 px-20 md:px-0"> -->
-  <article class="container mx-auto my-8 px-6 max-w-screen-sm">
+  <article class="max-w-screen-sm my-8 px-6">
+    <topic-path />
     <h1 class="font-bold">
       {{ article.title || '' }}
     </h1>
@@ -25,6 +25,10 @@ export default {
   color: var(--primary-orange);
   border-color: var(--primary-orange);
   @apply text-xl md:text-2xl mt-6 mb-3 pl-3 font-bold border-l-8;
+}
+
+::v-deep a {
+  @apply text-blue-500 hover:underline;
 }
 
 ::v-deep p {

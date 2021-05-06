@@ -106,6 +106,7 @@
             <a
               href="https://www.youtube.com/watch?v=nAWJgywLsAw&ab_channel=TEDxTalks"
               target="_blank"
+              rel="noopener"
             >
               <img
                 width="400"
@@ -123,6 +124,7 @@
             <a
               href="https://www.youtube.com/watch?v=KiLChQ3Mwkg&feature=youtu.be&ab_channel=NANAME"
               target="_blank"
+              rel="noopener"
             >
               <img
                 width="400"
@@ -142,6 +144,7 @@
             <a
               href="https://www.youtube.com/watch?v=mK2iOG8F-wk&ab_channel=ANNnewsCH"
               target="_blank"
+              rel="noopener"
             >
               <img
                 width="400"

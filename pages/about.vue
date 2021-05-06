@@ -57,6 +57,7 @@
               class="text-blue-500 hover:underline"
               href="https://www.facebook.com/chiharunomori/"
               target="_blank"
+              rel="noopener"
               >ちはるの森</a
             >」です。ある記事のコメント欄は、いわゆる「炎上」している状態でした。コメントを書き込む人々が、それぞれ自分の考えが一番正しいと思って皆で言い争っている様子に圧倒され、徹夜で読み込みました。
           </p>
@@ -132,6 +133,7 @@
               <a
                 href="https://www.youtube.com/watch?v=nAWJgywLsAw&ab_channel=TEDxTalks"
                 target="_blank"
+                rel="noopener"
               >
                 <img
                   width="400"
@@ -149,6 +151,7 @@
               <a
                 href="https://www.youtube.com/watch?v=KiLChQ3Mwkg&feature=youtu.be&ab_channel=NANAME"
                 target="_blank"
+                rel="noopener"
               >
                 <img
                   width="400"
@@ -168,6 +171,7 @@
               <a
                 href="https://www.youtube.com/watch?v=mK2iOG8F-wk&ab_channel=ANNnewsCH"
                 target="_blank"
+                rel="noopener"
               >
                 <img
                   width="400"

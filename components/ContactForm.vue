@@ -14,11 +14,10 @@
         <select
           id="selectCategory"
           name="entry.725826341"
-          class="--category appearance-none shadow border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="--category appearance-none shadow border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
           required
         >
           <option
-            class="text-gray-50"
             value=""
             disabled
             :selected="selectedOption === '種別を選択してください'"
@@ -65,7 +64,7 @@
           <input
             id="inputLastName"
             name="entry.896613129"
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
             type="text"
             placeholder="山田"
             required
@@ -81,7 +80,7 @@
           <input
             id="inputFirstName"
             name="entry.1420828012"
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
             type="text"
             placeholder="太郎"
             required
@@ -98,7 +97,7 @@
         <input
           id="inputCompany"
           name="entry.1666260960"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="株式会社 XXX"
         />
@@ -113,7 +112,7 @@
         <input
           id="inputTel"
           name="entry.2019384655"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="012-3456-7890"
           required
@@ -129,7 +128,7 @@
         <input
           id="inputEmail"
           name="entry.653387606"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="npo-mottai@example.com"
           required
@@ -145,7 +144,7 @@
         <input
           id="inputTitle"
           name="entry.627760766"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
           type="text"
           placeholder="XXX について"
           required
@@ -161,7 +160,7 @@
         <textarea
           id="inputContent"
           name="entry.152237501"
-          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+          class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 placeholder-gray-500 leading-tight focus:outline-none focus:shadow-outline"
           placeholder="本文を入力"
           rows="10"
           required

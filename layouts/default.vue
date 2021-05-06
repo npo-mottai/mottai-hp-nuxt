@@ -75,10 +75,6 @@ html {
   --theme-blue: #2274a5;
 }
 
-:invalid {
-  color: rgba(156, 163, 175, 1);
-}
-
 .h2--primary-orange {
   color: var(--primary-orange);
   border-color: var(--primary-orange);

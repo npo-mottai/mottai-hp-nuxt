@@ -19,6 +19,7 @@
             href="https://www.news24.jp/articles/2019/05/23/07440149.html"
             class="text-blue-500 hover:underline"
             target="_blank"
+            rel="noopener"
             >日テレNEWS24「罠オーナー制度」その仕組みは？</a
           >
         </li>
@@ -27,6 +28,7 @@
             href="https://www.youtube.com/watch?v=A_PToY31AUg&ab_channel=TBSNEWS"
             class="text-blue-500 hover:underline"
             target="_blank"
+            rel="noopener"
             >TBS DOOO「食」を考えるために猟師になった大学生の挑戦</a
           >
         </li>
@@ -57,6 +59,7 @@
             href="https://neutmagazine.com/yururevolution-yusuke-sugata"
             class="text-blue-500 hover:underline"
             target="_blank"
+            rel="noopener"
             >NEWT “余り物”に注目して開始した「モッタイナイト」</a
           >
         </li>
@@ -65,6 +68,7 @@
             href="https://www.townnews.co.jp/0601/m/2017/06/30/388794.html"
             class="text-blue-500 hover:underline"
             target="_blank"
+            rel="noopener"
             >タウンニュース藤沢版 食べ残しで交流</a
           >
         </li>

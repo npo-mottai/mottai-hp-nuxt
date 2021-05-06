@@ -8,7 +8,6 @@
             <img
               width="161.45"
               height="48.91"
-              class=""
               src="/image/mottai-logo.svg"
               alt="NPO法人 MOTTAI"
               @click="fold"
@@ -41,35 +40,35 @@
               >私たちについて</nuxt-link
             >
           </li>
-          <li class="" @click="fold">
+          <li @click="fold">
             <nuxt-link
               to="/activities/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >MOTTAIの活動</nuxt-link
             >
           </li>
-          <li class="" @click="fold">
+          <li @click="fold">
             <nuxt-link
               to="/about/#media"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >メディア掲載</nuxt-link
             >
           </li>
-          <li class="" @click="fold">
+          <li @click="fold">
             <nuxt-link
               to="/news/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >ニュース</nuxt-link
             >
           </li>
-          <li class="" @click="fold">
+          <li @click="fold">
             <nuxt-link
               to="/support/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
               >サポートする</nuxt-link
             >
           </li>
-          <li class="" @click="fold">
+          <li @click="fold">
             <nuxt-link
               to="/contact/"
               class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"

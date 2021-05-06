@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div>
     <topic-path />
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -20,7 +20,7 @@
             </td>
             <td class="border px-4 py-2">ＰａｙＰａｙ銀行</td>
           </tr>
-          <tr class="">
+          <tr>
             <td class="border px-4 py-2">支店名（店番号）</td>
             <td class="border px-4 py-2">ビジネス営業部（００５）</td>
           </tr>

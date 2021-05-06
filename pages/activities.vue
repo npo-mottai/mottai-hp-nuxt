@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div>
     <topic-path />
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -32,7 +32,7 @@
         </li>
       </ul>
     </div>
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >

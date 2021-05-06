@@ -1,7 +1,7 @@
 <template>
-  <div class="">
+  <div>
     <topic-path />
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -21,7 +21,7 @@
         NPO法人MOTTAIでは、ビジョン「当たり前の裏側にアクセスしやすい社会を創る」、ミッション「ひとりひとりが当事者意識をもてるように」を掲げて、実際に触れたり見たり体験したり一次情報を増やすことに取り組んでいます。「実はこんな感じになってたんだ」と、驚くことから一緒にはじめてみませんか。
       </p>
     </div>
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -31,7 +31,7 @@
         廃棄になりそうな食材を持ち寄る料理会「モッタイNight!!」の活動が他の団体や地域で広がり始めたり、小田原市と慶應義塾大学で行っていた狩猟体験事業「罠オーナー制度」が様々な人が関わるようになっていきました。それらの活動の中で生まれた哲学やミッションが、一部の人が死んだら無くなってしまうのが勿体無いと思ったこと。同じ想いを持った人を横でつなげること。より多くの人に関わってもらい、持続可能な形でミッションを実現していくこと。これらの理由などが設立の背景です。
       </p>
     </div>
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -44,14 +44,14 @@
         この本質的なものや価値が失われてしまうのを嘆いたり惜しんだりすることから「もったいない」という言葉は生まれたとされます。この「勿体」という言葉を現代社会に打ち出し、物事の本来の価値であったり本質的な部分についてを考え直すようなきっかけを増やす。そんな想いを込めて「MOTTAI」という名前をつけました。
       </p>
     </div>
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
         代表からのメッセージ
       </h2>
       <div class="lg:flex">
-        <div class="">
+        <div>
           <p class="pb-3 md:text-lg">
             NPO法人MOTTAIの設立やその活動の原点となっているのは、私が受験生の時に見た、ある狩猟に関するブログ「<a
               class="text-blue-500 hover:underline"
@@ -90,13 +90,13 @@
         </div>
       </div>
     </div>
-    <div id="media" class="">
+    <div id="media">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
         実績・メディア掲載
       </h2>
-      <div class="">
+      <div>
         <h3 class="text-lg md:text-xl mt-6 mb-3 font-bold">実績</h3>
         <p class="pb-3 md:text-lg">
           NPO法人MOTTAIや、法人設立前の代表等の活動実績は次の通りです。
@@ -113,7 +113,7 @@
           </li>
         </ul>
       </div>
-      <div class="">
+      <div>
         <h3 class="text-lg md:text-xl mt-6 mb-3 font-bold">メディア掲載</h3>
         <p class="pb-3 md:text-lg">
           過去に次のようなメディア等に掲載されました（順不同）。
@@ -182,7 +182,7 @@
         </div>
       </div>
     </div>
-    <div class="">
+    <div>
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -197,7 +197,7 @@
             </td>
             <td class="border px-4 py-2">神奈川県</td>
           </tr>
-          <tr class="">
+          <tr>
             <td class="border px-4 py-2">主たる事務所の所在地</td>
             <td class="border px-4 py-2">神奈川県小田原市米神２４７番３</td>
           </tr>

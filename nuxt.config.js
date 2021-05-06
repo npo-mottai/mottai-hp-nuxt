@@ -126,6 +126,7 @@ export default {
     '@nuxt/content',
     'nuxt-lazy-load',
     '@nuxtjs/sitemap',
+    '@nuxtjs/google-analytics',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
@@ -133,6 +134,11 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
+
+  // Google Analytics の設定
+  googleAnalytics: {
+    id: 'UA-132467750-2',
+  },
 
   // sitemap の生成
   sitemap: {

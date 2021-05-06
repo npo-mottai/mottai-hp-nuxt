@@ -38,13 +38,13 @@ export default {
       } else if (value === 'news') {
         return 'ニュース'
       } else if (value === 'support') {
-        return 'サポート'
+        return 'MOTTAIをサポートする'
       } else if (value === 'donation') {
-        return '寄付によるサポート'
+        return '寄付でサポートする'
       } else if (value === 'pro-bono') {
-        return 'メンバーとしてサポート'
+        return 'メンバーとしてサポートする'
       } else if (value === 'request') {
-        return '講演依頼などでサポート'
+        return '講演依頼などでサポートする'
       } else if (value === 'contact') {
         return 'お問い合わせ'
       } else {

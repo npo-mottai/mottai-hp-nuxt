@@ -1,7 +1,7 @@
 <template>
   <div
     class="bg-cover py-20 md:py-40 opacity-90"
-    style="background-image: url(/image/header-background.jpg)"
+    style="background-image: url(/image/header-background.webp)"
   >
     <div>
       <h1 class="mb-2 text-center text-white text-3xl md:text-6xl font-bold">

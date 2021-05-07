@@ -1,5 +1,7 @@
 # mottai-hp-nuxt
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bf426bb9-0ece-4ecd-8138-704c018ed6a3/deploy-status)](https://app.netlify.com/sites/mottai-hp-nuxt/deploys)
+
 ## Build Setup
 
 ```bash

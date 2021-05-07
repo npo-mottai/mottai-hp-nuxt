@@ -47,6 +47,8 @@ export default {
         return '講演依頼などでサポートする'
       } else if (value === 'contact') {
         return 'お問い合わせ'
+      } else if (value === 'privacy') {
+        return 'プライバシーポリシー'
       } else {
         return value
       }

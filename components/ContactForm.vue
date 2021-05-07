@@ -1,7 +1,7 @@
 <template>
   <div class="w-full mx-auto sm:px-4 md:px-16 lg:px-0 lg:max-w-md">
     <form
-      class="bg-white shadow-md rounded mb-4 py-4 pt-6 px-4 sm:px-8 pb-8 mb-4"
+      class="bg-white shadow-md rounded py-4 pt-6 px-4 sm:px-8 pb-8"
       action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSc5DkYy22ThllQGH6AW6unb2NwJqKvytKcK7CGMkzF036UBIA/formResponse"
     >
       <div class="mb-4">

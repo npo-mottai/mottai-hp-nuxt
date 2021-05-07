@@ -1,6 +1,6 @@
 <template>
   <div
-    class="fixed top-0 right-0 m-1 p-3 text-xs font-mono text-white h-6 w-6 rounded-full flex items-center justify-center bg-gray-700 sm:bg-pink-500 md:bg-orange-500 lg:bg-green-500 xl:bg-blue-500"
+    class="fixed top-12 right-4 p-3 text-xs font-mono text-white h-6 w-6 rounded-full flex items-center justify-center bg-gray-700 sm:bg-pink-500 md:bg-orange-500 lg:bg-green-500 xl:bg-blue-500"
   >
     <div class="block text-white sm:hidden md:hidden lg:hidden xl:hidden">
       al

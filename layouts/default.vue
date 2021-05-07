@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div class="min-h-screen flex flex-col">
     <nav-bar />
-    <main-visual v-if="showMainVisual" />
-    <div class="container px-4 sm:px-8 lg:px-0 lg:max-w-screen-md">
-      <Nuxt />
+    <div class="flex-grow">
+      <main-visual v-if="showMainVisual" />
+      <div class="container px-4 sm:px-8 lg:px-0 lg:max-w-screen-md">
+        <Nuxt />
+      </div>
     </div>
     <common-footer />
   </div>
@@ -78,5 +80,9 @@ html {
 .h2--primary-orange {
   color: var(--primary-orange);
   border-color: var(--primary-orange);
+}
+
+.div--topic-contanier {
+  margin-bottom: 48px;
 }
 </style>

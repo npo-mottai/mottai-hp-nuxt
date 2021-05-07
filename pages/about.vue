@@ -1,7 +1,7 @@
 <template>
   <div>
     <topic-path />
-    <div>
+    <div class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -21,7 +21,8 @@
         NPO法人MOTTAIでは、ビジョン「当たり前の裏側にアクセスしやすい社会を創る」、ミッション「ひとりひとりが当事者意識をもてるように」を掲げて、実際に触れたり見たり体験したり一次情報を増やすことに取り組んでいます。「実はこんな感じになってたんだ」と、驚くことから一緒にはじめてみませんか。
       </p>
     </div>
-    <div>
+
+    <div class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -31,7 +32,8 @@
         廃棄になりそうな食材を持ち寄る料理会「モッタイNight!!」の活動が他の団体や地域で広がり始めたり、小田原市と慶應義塾大学で行っていた狩猟体験事業「罠オーナー制度」が様々な人が関わるようになっていきました。それらの活動の中で生まれた哲学やミッションが、一部の人が死んだら無くなってしまうのが勿体無いと思ったこと。同じ想いを持った人を横でつなげること。より多くの人に関わってもらい、持続可能な形でミッションを実現していくこと。これらの理由などが設立の背景です。
       </p>
     </div>
-    <div>
+
+    <div class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -44,7 +46,8 @@
         この本質的なものや価値が失われてしまうのを嘆いたり惜しんだりすることから「もったいない」という言葉は生まれたとされます。この「勿体」という言葉を現代社会に打ち出し、物事の本来の価値であったり本質的な部分についてを考え直すようなきっかけを増やす。そんな想いを込めて「MOTTAI」という名前をつけました。
       </p>
     </div>
-    <div>
+
+    <div class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -78,7 +81,7 @@
           <img
             width="288"
             height="288"
-            class="mx-auto rounded-full h-72 w-72"
+            class="mx-auto rounded-full h-72 w-72 p-2"
             src="/image/sugata-yusuke.jpg"
             alt="yusuke sugata"
           />
@@ -91,7 +94,8 @@
         </div>
       </div>
     </div>
-    <div id="media">
+
+    <div id="media" class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -186,7 +190,8 @@
         </div>
       </div>
     </div>
-    <div>
+
+    <div class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >

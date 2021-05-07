@@ -135,6 +135,17 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 
+  // 404 ページの設定
+  router: {
+    extendRoutes(routes, resolve) {
+      routes.push({
+        name: 'custom',
+        path: '*',
+        component: resolve(__dirname, 'pages/404.vue'),
+      })
+    },
+  },
+
   // Google Analytics の設定
   googleAnalytics: {
     id: 'UA-132467750-2',
@@ -145,7 +156,7 @@ export default {
     path: '/sitemap.xml',
     hostname: 'https://npo-mottai.org',
     // generate: true,
-    exclude: [],
+    exclude: ['/404'],
     routes: createSitemapRoutes,
   },
 }

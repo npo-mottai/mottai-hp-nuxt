@@ -3,8 +3,8 @@
     <!-- <window-size-indicator /> -->
     <nav class="lg:flex my-3">
       <div class="flex justify-between">
-        <div class="flex-none mx-6">
-          <nuxt-link to="/" class="text-blue-500 hover:text-blue-800">
+        <div class="flex-none mx-4 md:mx-6">
+          <nuxt-link to="/" class="text-gray-600 hover:text-blue-700">
             <img
               width="161.45"
               height="48.91"
@@ -36,42 +36,42 @@
           <li class="mt-4 lg:mt-0" @click="fold">
             <nuxt-link
               to="/about/"
-              class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
+              class="text-gray-600 hover:text-blue-700 block px-8 py-2 lg:px-2"
               >私たちについて</nuxt-link
             >
           </li>
           <li @click="fold">
             <nuxt-link
               to="/activities/"
-              class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
+              class="text-gray-600 hover:text-blue-700 block px-8 py-2 lg:px-2"
               >MOTTAIの活動</nuxt-link
             >
           </li>
           <li @click="fold">
             <nuxt-link
               to="/about/#media"
-              class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
+              class="text-gray-600 hover:text-blue-700 block px-8 py-2 lg:px-2"
               >メディア掲載</nuxt-link
             >
           </li>
           <li @click="fold">
             <nuxt-link
               to="/news/"
-              class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
+              class="text-gray-600 hover:text-blue-700 block px-8 py-2 lg:px-2"
               >ニュース</nuxt-link
             >
           </li>
           <li @click="fold">
             <nuxt-link
               to="/support/"
-              class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
+              class="text-gray-600 hover:text-blue-700 block px-8 py-2 lg:px-2"
               >サポートする</nuxt-link
             >
           </li>
           <li @click="fold">
             <nuxt-link
               to="/contact/"
-              class="text-blue-500 hover:text-blue-800 block px-8 py-2 lg:px-2"
+              class="text-gray-600 hover:text-blue-700 block px-8 py-2 lg:px-2"
               >お問い合わせ</nuxt-link
             >
           </li>

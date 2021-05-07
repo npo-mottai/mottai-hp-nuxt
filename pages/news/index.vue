@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div class="div--topic-contanier">
+    <div class="pb-4">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >

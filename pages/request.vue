@@ -1,7 +1,7 @@
 <template>
   <div>
     <topic-path />
-    <div>
+    <div class="div--topic-contanier">
       <h2
         class="h2--primary-orange text-3xl md:text-4xl mt-6 mb-3 pl-3 font-bold border-l-8"
       >
@@ -19,7 +19,7 @@
       <p class="pb-3 md:text-lg">
         を含む内容を、下記のフォームにご入力お願いします。フォームにご入力いただきましたメールアドレスに、後日メールをお送りします。
       </p>
+      <contact-form />
     </div>
-    <contact-form />
   </div>
 </template>

@@ -1,7 +1,9 @@
 <template>
   <div class="py-4">
     <span v-for="(item, index) in topicPaths" :key="index">
-      <nuxt-link :to="item.path">{{ item.name }}</nuxt-link>
+      <nuxt-link class="text-blue-500 hover:underline" :to="item.path">{{
+        item.name
+      }}</nuxt-link>
       /
     </span>
   </div>
@@ -80,9 +82,3 @@ export default {
   PropType
 >
 </script>
-
-<style lang="postcss" scoped>
-::v-deep a {
-  @apply text-blue-500 hover:underline;
-}
-</style>

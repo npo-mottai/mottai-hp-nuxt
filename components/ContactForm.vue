@@ -31,6 +31,12 @@
             各種活動について
           </option>
           <option
+            value="会員登録について"
+            :selected="selectedOption === '会員登録について'"
+          >
+            会員登録について
+          </option>
+          <option
             value="寄付について"
             :selected="selectedOption === '寄付について'"
           >

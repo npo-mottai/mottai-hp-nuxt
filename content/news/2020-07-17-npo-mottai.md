@@ -3,7 +3,7 @@ title: 'NPO法人MOTTAI 設立'
 description: 'NPO法人MOTTAIのHPを設立しました。罠オーナー制度、モッタイnight、その他の体験事業を中心に、ひとりひとりが食品ロスをはじめとする社会問題に対して、当事者意識を持って過ごせる世の中を目指して、皆さんの普段の生活に新たな視点を届けて行きたいと考えています。'
 createdAt: 2020-07-17
 slug: '2020-07-17-npo-mottai'
-image: '/image/news/2020-07-17-npo-mottai/npo-mottai.jpg'
+image: '/image/news/2020-07-18-npo-mottai-hp/ogp.png'
 ---
 
 ## NPO法人MOTTAI 設立
